@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.769654b8.svg" />
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=yes" />
+  <title>POIESIS EDUCATION</title>
+  <script type="module" crossorigin src="/assets/index.27b3c184.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.e5b49b34.js">
+  <link rel="stylesheet" href="/assets/index.584624ca.css">
+</head>
+<style>
+ 
+ .glass-button {
+   display: inline-block;
+   padding: 24px 32px;
+   border: 0;
+   text-decoration: none;
+   border-radius: 15px;
+   background-color: rgba(255,255,255,0.1);
+   border: 1px solid rgba(255,255,255,0.1);
+   backdrop-filter: blur(30px);
+   color: rgba(255,255,255,0.8);
+   font-size: 14px;
+   letter-spacing: 2px;
+   cursor: pointer;
+   text-transform: uppercase;
+ }
+
+ .glass-button:hover {
+   background-color: rgba(255,255,255,0.2);
+ }
+</style>
+<style src="/buttons.scss" type="text/css"></style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+</script>
+
+<body onload="window.scrollTo(0, document.body.scrollHeight*4)">
+  <canvas id="bg"></canvas>
+  <main>
+    <header>
+      <section>
+        <!-- scroll to the bottom button with svg arrow down  -->
+      </section>
+      <blockquote>
+        <p>
+          <br>
+        </p>
+      </blockquote>
+ 
+
+    </header>
+
+
+    <section>
+
+
+
+      <h2></h2>
+
+      <blockquote>
+
+        <p>
+        </p>
+
+      </blockquote>
+      <p>
+      </p>
+      <p>
+      </p>
+    </section>
+    <section class="light">
+      <h2> </h2>
+
+      <p>
+      </p>
+      <h2></h2>
+      <p>
+      </p>
+    </section>
+    <blockquote>
+      <p> <br></p>
+    </blockquote>
+    <section>
+<div  class="glass-panel">
+
+  <a href="https://m.poiesis.education/" >
+      <button id="explore-button" class="glass-button" click="window.open('sos/index.html','_blank' )">
+        <span>Mission</span>
+      </button>
+      </a>
+      <br>
+      <br>
+      <!--TODO: glass buttons 
+      -->
+      <a href="https://m2.poiesis.education/sessionstructure" >
+      <button id="bottom" class="glass-button" click="window.open('https://inaugural.poiesis.education','_blank')">
+
+
+        <span class="front">Poiesis Club</span>
+      </button>
+      </a>
+      <br>
+      <br>
+      <a href="https://g.co/arts/sVxDo9GkNzTsk5GX7" >
+      <button id="bottom" class="glass-button" click="window.open('https://artsandculture.google.com/experiment/fabricius/gwHX41Sm0N7-Dw','_blank')">
+
+
+        <span class="front">Our Logo</span>
+      </button>
+      </a>
+    </div>
+    <br>
+    <a href="https://inaugural.poiesis.education">
+    <button id="bottom" class="glass-button" click="window.open('https://inaugural.poiesis.education','_blank')">
+
+
+      <span class="front">Simpler Site</span>
+    </button>
+  </a>
+    </section>
+    <!--- two left aligned buttons with images in them-->
+
+
+
+  </main>
+  
+</body>
+
+</html>
